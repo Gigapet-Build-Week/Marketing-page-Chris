@@ -147,14 +147,14 @@ body {
     transform: rotate(-30deg);
   }
   
-  // this will show hidden content overflow when rotated,
+  /* this will show hidden content overflow when rotated,
   // but will result in a jump, if you've already scrolled down the content
   // plus, you will lose your current reading position
-  // fixable with JS, not gonna bother
+  // fixable with JS, not gonna bother*/
   
-  /*.content_inner {
+  .content_inner {
     height: 100%;
-  }*/
+  }
   
   .menu_open {
     transform: rotate(-20deg);
