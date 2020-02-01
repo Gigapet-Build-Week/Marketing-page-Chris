@@ -1,0 +1,349 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+.lingra {
+  background-image: linear-gradient(to right, black, greenyellow);
+}
+.mar-pad {
+  margin: 2%;
+  padding: 2%;
+}
+.shad {
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+}
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+h1 {
+  text-align: center;
+  font-size: 20px;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 2%;
+  padding: 2%;
+  background-image: linear-gradient(to right, black, greenyellow);
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+  color: white;
+}
+/* {
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	width:350px;
+	height:350px;
+	border-radius:175px;
+	text-align:center;
+	
+	
+	.mar-pad();
+	.lingra();
+	.shad ();
+	}
+	
+	.heading {
+		width:40%;
+		height:40%;
+		color:white;
+		text-align:center;
+		.shad();
+		
+	} */
+.sec-1 {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin: 2%;
+  padding: 2%;
+  background-image: linear-gradient(to right, black, greenyellow);
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+}
+.sec-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2%;
+  padding: 2%;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+}
+.sec-2 .skill {
+  width: 42%;
+  background-image: linear-gradient(to right, black, greenyellow);
+  color: white;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+}
+.pics {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2%;
+  padding: 2%;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+  color: white;
+}
+.image {
+  width: 25%;
+}
+.cont {
+  width: 100%;
+  background-color: grey;
+}
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+.html {
+  width: 90%;
+  background-color: #4caf50;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+}
+.html:hover {
+  background-color: black;
+  color: greenyellow;
+}
+.css {
+  width: 90%;
+  background-color: green;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+}
+.css:hover {
+  background-color: black;
+  color: greenyellow;
+}
+.js {
+  width: 60%;
+  background-color: #4caf50;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+}
+.js:hover {
+  background-color: black;
+  color: greenyellow;
+}
+.java {
+  width: 75%;
+  background-color: green;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+}
+.java:hover {
+  background-color: black;
+  color: greenyellow;
+}
+.exp:hover {
+  color: greenyellow;
+}
+.skill:hover {
+  color: greenyellow;
+}
+table:hover {
+  color: greenyellow;
+}
+a:hover {
+  color: green;
+}
+/* Form */
+form {
+  margin: 0 0 2em 0;
+}
+form > :last-child {
+  margin-bottom: 0;
+}
+form > .fields {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: calc(100% + 3em);
+  margin: -1.5em 0 2em -1.5em;
+}
+form > .fields > .field {
+  -moz-flex-grow: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-grow: 0;
+  flex-grow: 0;
+  -moz-flex-shrink: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-shrink: 0;
+  flex-shrink: 0;
+  padding: 1.5em 0 0 1.5em;
+  width: calc(100% - 1.5em);
+}
+form > .fields > .field.half {
+  width: calc(50% - 0.75em);
+}
+form > .fields > .field.third {
+  width: calc(100% / 3 - 0.5em);
+}
+form > .fields > .field.quarter {
+  width: calc(25% - 0.375em);
+}
+.contact-form {
+  margin: 2%;
+  padding: 2%;
+  background-image: linear-gradient(to right, black, greenyellow);
+  color: white;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+}
+i:hover {
+  color: greenyellow;
+}
