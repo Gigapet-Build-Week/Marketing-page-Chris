@@ -173,9 +173,8 @@ nav {
 nav {
   display: flex;
   justify-content: space-around;
-}
-@media @max550 {
-  nav {
+
+  @media @max550 {
     display: flex;
     flex-direction: column;
   }
@@ -262,6 +261,10 @@ a:hover {
   .shad();
 
   .shad();
+  @media @max550 {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .sec-2 {
@@ -286,10 +289,16 @@ a:hover {
 }
 .image {
   width: 25%;
+  @media @max550 {
+    display: none;
+  }
 }
 .image2 {
   width: 25%;
   border-radius: 50%;
+  @media @max550 {
+    width: 80%;
+  }
 }
 
 .cont {
@@ -306,6 +315,12 @@ a:hover {
   width: 90%;
   display: flex;
   .mar-pad();
+
+  @media @max550 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 .img-about {
   width: 50%;
@@ -314,6 +329,9 @@ a:hover {
 .div-about {
   width: 45%;
   .mar-pad();
+  @media @max550 {
+    width: 80%;
+  }
 }
 .div-about2 {
   width: 40%;

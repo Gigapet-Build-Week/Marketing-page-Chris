@@ -252,6 +252,12 @@ a:hover {
   -moz-box-shadow: 0 8px 6px -6px black;
   box-shadow: 0 8px 6px -6px black;
 }
+@media (max-width:550px) {
+  .sec-1 {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .sec-2 {
   display: flex;
   flex-direction: column;
@@ -281,9 +287,19 @@ a:hover {
 .image {
   width: 25%;
 }
+@media (max-width:550px) {
+  .image {
+    display: none;
+  }
+}
 .image2 {
   width: 25%;
   border-radius: 50%;
+}
+@media (max-width:550px) {
+  .image2 {
+    width: 80%;
+  }
 }
 .cont {
   width: 100%;
@@ -302,6 +318,13 @@ a:hover {
   margin: 2%;
   padding: 2%;
 }
+@media (max-width:550px) {
+  .sec-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
 .img-about {
   width: 50%;
   border-radius: 45%;
@@ -310,6 +333,11 @@ a:hover {
   width: 45%;
   margin: 2%;
   padding: 2%;
+}
+@media (max-width:550px) {
+  .div-about {
+    width: 80%;
+  }
 }
 .div-about2 {
   width: 40%;
