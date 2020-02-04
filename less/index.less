@@ -132,7 +132,9 @@ table {
 /* Set every element's box-sizing to border-box */
 @background: #99b898;
 @padding: 50px 10px;
-
+@min750: ~"(min-width:750px)";
+@min550: ~"(min-width:550px)";
+@min400: ~"(min-width:400px)";
 .lingra {
   background-image: linear-gradient(to right, black, greenyellow);
 }
@@ -152,6 +154,7 @@ table {
 
 html,
 body {
+  width: 100%;
   height: 100%;
 }
 h1 {
@@ -174,7 +177,7 @@ nav {
 .button {
   background-color: #4caf50; /* Green */
   border: none;
-  color: white;
+  color: blue;
   padding: 20px;
   text-align: center;
   text-decoration: none;
@@ -183,12 +186,34 @@ nav {
   margin: 4px 2px;
   cursor: pointer;
 }
+.button:hover {
+  background-color: yellow;
+  color: red;
+}
+a {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: blue;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+a:hover {
+  background-color: yellow;
+  color: red;
+}
 
 .button1 {
-  border-radius: 2px;
+  // border-radius: 2px;
+  border-radius: 8px;
 }
 .button2 {
-  border-radius: 4px;
+  //border-radius: 4px;
+  border-radius: 50%;
 }
 .button3 {
   border-radius: 8px;
@@ -256,6 +281,11 @@ nav {
 .image {
   width: 25%;
 }
+.image2 {
+  width: 25%;
+  border-radius: 50%;
+}
+
 .cont {
   width: 100%;
   background-color: grey;
@@ -264,5 +294,24 @@ nav {
 .html {
   width: 90%;
   background-color: #4caf50;
+  .shad();
+}
+.sec-about {
+  width: 90%;
+  display: flex;
+  .mar-pad();
+}
+.img-about {
+  width: 50%;
+  border-radius: 45%;
+}
+.div-about {
+  width: 45%;
+  .mar-pad();
+}
+.div-about2 {
+  width: 40%;
+  .mar-pad();
+  .lingra();
   .shad();
 }
