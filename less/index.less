@@ -132,9 +132,9 @@ table {
 /* Set every element's box-sizing to border-box */
 @background: #99b898;
 @padding: 50px 10px;
-@min750: ~"(min-width:750px)";
-@min550: ~"(min-width:550px)";
-@min400: ~"(min-width:400px)";
+@max750: ~"(max-width:750px)";
+@max550: ~"(max-width:550px)";
+@max400: ~"(max-width:400px)";
 .lingra {
   background-image: linear-gradient(to right, black, greenyellow);
 }
@@ -173,6 +173,12 @@ nav {
 nav {
   display: flex;
   justify-content: space-around;
+}
+@media @max550 {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .button {
   background-color: #4caf50; /* Green */

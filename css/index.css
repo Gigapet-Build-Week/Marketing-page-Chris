@@ -165,6 +165,12 @@ nav {
   display: flex;
   justify-content: space-around;
 }
+@media (max-width:550px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .button {
   background-color: #4caf50;
   /* Green */
