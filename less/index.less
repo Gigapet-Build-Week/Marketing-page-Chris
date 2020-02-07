@@ -174,12 +174,6 @@ a:hover {
   width: 90%;
   display: flex;
   .mar-pad();
-
-  @media @max500 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
 }
 .img-about {
   width: 50%;
@@ -190,6 +184,7 @@ a:hover {
   .mar-pad();
   @media @max500 {
     width: 80%;
+    justify-content: center;
   }
 }
 .div-about2 {
@@ -197,4 +192,8 @@ a:hover {
   .mar-pad();
   .lingra();
   .shad();
+  @media @max500 {
+    width: 80%;
+    justify-content: center;
+  }
 }
