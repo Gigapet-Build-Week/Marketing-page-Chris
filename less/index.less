@@ -1,152 +1,4 @@
-// Is this working?
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
-}
-body {
-  line-height: 1;
-}
-ol,
-ul {
-  list-style: none;
-}
-blockquote,
-q {
-  quotes: none;
-}
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "";
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
 /* Set every element's box-sizing to border-box */
-@background: #99b898;
-@padding: 50px 10px;
-@max750: ~"(max-width:750px)";
-@max550: ~"(max-width:550px)";
-@max400: ~"(max-width:400px)";
-.lingra {
-  background-image: linear-gradient(to right, black, greenyellow);
-}
-.mar-pad {
-  margin: 2%;
-  padding: 2%;
-}
-.shad {
-  -webkit-box-shadow: 0 8px 6px -6px black;
-  -moz-box-shadow: 0 8px 6px -6px black;
-  box-shadow: 0 8px 6px -6px black;
-}
 
 * {
   box-sizing: border-box;
@@ -173,8 +25,12 @@ nav {
 nav {
   display: flex;
   justify-content: space-around;
+  @media @max800 {
+    display: flex;
+    flex-direction: column;
+  }
 
-  @media @max550 {
+  @media @max500 {
     display: flex;
     flex-direction: column;
   }
@@ -261,7 +117,7 @@ a:hover {
   .shad();
 
   .shad();
-  @media @max550 {
+  @media @max500 {
     display: flex;
     flex-direction: column;
   }
@@ -289,15 +145,18 @@ a:hover {
 }
 .image {
   width: 25%;
-  @media @max550 {
+  @media @max500 {
     display: none;
   }
 }
 .image2 {
   width: 25%;
   border-radius: 50%;
-  @media @max550 {
+  @media @max500 {
     width: 80%;
+  }
+  @meda @max800 {
+    display: none;
   }
 }
 
@@ -316,7 +175,7 @@ a:hover {
   display: flex;
   .mar-pad();
 
-  @media @max550 {
+  @media @max500 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -329,7 +188,7 @@ a:hover {
 .div-about {
   width: 45%;
   .mar-pad();
-  @media @max550 {
+  @media @max500 {
     width: 80%;
   }
 }
